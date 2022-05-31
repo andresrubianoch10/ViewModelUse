@@ -2,6 +2,7 @@ package com.example.viewmodeluse
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.os.PersistableBundle
 import com.example.viewmodeluse.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
@@ -20,6 +21,5 @@ class MainActivity : AppCompatActivity() {
                 text = actualValue.toString()
             }
         }
-
     }
 }
