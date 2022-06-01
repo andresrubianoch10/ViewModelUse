@@ -2,11 +2,9 @@ package com.example.viewmodeluse
 
 import androidx.lifecycle.ViewModel
 
-class MainActivityViewModel(
-    private val startingPoint: Int
-) : ViewModel() {
+class MainActivityViewModel : ViewModel() {
 
-    private var count = startingPoint
+    private var count = 0
 
     fun getCurrentCount(): Int {
         return count
